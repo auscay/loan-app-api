@@ -53,7 +53,7 @@ A secure RESTful API for loan management with JWT authentication and role-based 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/loan-management-api.git
+   git clone https://github.com/auscay/loan-app-api.git
    cd loan-management-api
    ```
 
