@@ -14,13 +14,13 @@ A secure RESTful API for loan management with JWT authentication and role-based 
 
 | Endpoint | Method | Description | Access |
 |----------|--------|-------------|--------|
-| `/auth/login` | POST | Authenticate user | Public |
-| `/auth/logout` | POST | Invalidate session | Authenticated |
-| `/loans` | GET | Get all loans | Authenticated |
-| `/loans?status={status}` | GET | Filter loans by status | Authenticated |
-| `/loans/:userEmail/get` | GET | Get loans by user email | Authenticated |
-| `/loans/expired` | GET | Get expired loans | Authenticated |
-| `/loan/:loanId/delete` | DELETE | Delete a loan | Superadmin only |
+| `/api/auth/login` | POST | Authenticate user | Public |
+| `/api/auth/logout` | POST | Invalidate session | Authenticated |
+| `/api/loans` | GET | Get all loans | Authenticated |
+| `/api/loans?status={status}` | GET | Filter loans by status | Authenticated |
+| `/api/loans/:userEmail/get` | GET | Get loans by user email | Authenticated |
+| `/api/loans/expired` | GET | Get expired loans | Authenticated |
+| `/api/loan/:loanId/delete` | DELETE | Delete a loan | Superadmin only |
 
 ## Data Structure
 
